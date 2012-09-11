@@ -1,0 +1,12 @@
+# IDE specific
+.idea/
+# file
+*.pyc
+manage.py
+dump.json
+# dir
+build/
+logs/
+src/
+media/
+django_cmsplugin_simple_markdown/
