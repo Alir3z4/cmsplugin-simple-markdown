@@ -4,6 +4,7 @@
 *.pyc
 manage.py
 dump.json
+MANIFEST
 # dir
 build/
 dist/
