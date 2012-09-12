@@ -6,6 +6,8 @@ manage.py
 dump.json
 # dir
 build/
+dist/
+*.egg-info/
 logs/
 src/
 media/
