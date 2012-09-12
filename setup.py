@@ -8,7 +8,7 @@ setup(
     license='BSD',
     author='Alireza Savand',
     author_email='alireza.savand@gmail.com',
-    description='A plugin for django-cms which provides just a markdown plugin and nothing more.',
+    description='A plugin for django-cms that provides just a markdown plugin and nothing more.',
     install_requires=['django', 'django-cms', 'markdown'],
     keywords=[
         'django',
