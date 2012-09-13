@@ -19,7 +19,7 @@ Or you can grab the latest version tarball and::
 
     $ python setup.py install
 
-Then just added to *INSTALLED_APPS*.
+Then just add it to *INSTALLED_APPS*.
 
 
 Drama story
