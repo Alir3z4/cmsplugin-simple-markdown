@@ -7,7 +7,7 @@ setup(
     package_dir={'cmsplugin_simple_markdown': 'cmsplugin_simple_markdown'},
     package_data={'cmsplugin_simple_markdown': ['templates/*/*']},
     url='https://www.github.com/Alir3z4/cmsplugin-simple-markdown',
-    license='LICENSE',
+    license=open('LICENSE').read(),
     author='Alireza Savand',
     author_email='alireza.savand@gmail.com',
     description='A plugin for django-cms that provides just a markdown plugin and nothing more.',
@@ -19,7 +19,7 @@ setup(
         'cms',
         'cmsplugin',
         'plugin',
-        ],
+    ],
     platforms='OS Independent',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
