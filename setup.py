@@ -11,7 +11,7 @@ setup(
     author='Alireza Savand',
     author_email='alireza.savand@gmail.com',
     description='A plugin for django-cms that provides just a markdown plugin and nothing more.',
-    long_description=open('README').read(),
+    long_description=open('README.rst').read(),
     keywords=[
         'django',
         'django-cms',
