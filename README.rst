@@ -1,6 +1,7 @@
 =========================
 cmsplugin-simple-markdown
 =========================
+.. contents:: Table of contents
 
 Simple Markdown plugin is just an simple markdown plugin for django-cms.
 It's brutally simple. Just a text area and you'll entered some markdown text and save it.
