@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='cmsplugin-simple-markdown',
@@ -6,6 +6,7 @@ setup(
     packages=['cmsplugin_simple_markdown', 'cmsplugin_simple_markdown.migrations'],
     package_dir={'cmsplugin_simple_markdown': 'cmsplugin_simple_markdown'},
     package_data={'cmsplugin_simple_markdown': ['templates/*/*']},
+    install_requires=['markdown'],
     url='https://www.github.com/Alir3z4/cmsplugin-simple-markdown',
     license=open('LICENSE').read(),
     author='Alireza Savand',
