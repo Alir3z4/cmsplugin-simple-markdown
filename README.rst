@@ -70,7 +70,12 @@ It's fucking hard to install.
 Configuration & Usage
 ----------------------
 
-Add ``cmsplugin_simple_markdown`` to  ``INSTALLED_APPS``.
+1. Add ``cmsplugin_simple_markdown`` to  ``INSTALLED_APPS``.
+2. Add ``django.contrib.markup`` to ``INSTALLED_APPS``, if it isn't included already.
+3. Create the database tables::
+
+    $ python manage.py migrate
+
 
 This is not easy, It's hard, confusing. I doubt, double doubt that those people that keep saying installing this
 is easy are on something.
