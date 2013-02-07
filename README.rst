@@ -70,7 +70,7 @@ It's fucking hard to install.
 Configuration & Usage
 ----------------------
 
-Add ``cmsplugin-simple-markdown`` to  ``INSTALLED_APPS``.
+Add ``cmsplugin_simple_markdown`` to  ``INSTALLED_APPS``.
 
 This is not easy, It's hard, confusing. I doubt, double doubt that those people that keep saying installing this
 is easy are on something.
