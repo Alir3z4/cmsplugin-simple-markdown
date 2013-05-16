@@ -6,7 +6,7 @@ setup(
     packages=['cmsplugin_simple_markdown', 'cmsplugin_simple_markdown.migrations'],
     package_dir={'cmsplugin_simple_markdown': 'cmsplugin_simple_markdown'},
     package_data={'cmsplugin_simple_markdown': ['templates/*/*']},
-    install_requires=['markdown'],
+    install_requires=['markdown', 'django-markwhat'],
     url='https://www.github.com/Alir3z4/cmsplugin-simple-markdown',
     license=open('LICENSE').read(),
     author='Alireza Savand',
