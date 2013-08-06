@@ -39,6 +39,8 @@ class SimpleMarkdownCMSPlugin(CMSPluginBase):
 
     def render(self, context, instance, placeholder):
         context['text'] = self.replace_links(instance.markdown_text)
+        self.render_template = instance.template
         return context
+
 
 plugin_pool.register_plugin(SimpleMarkdownCMSPlugin)
