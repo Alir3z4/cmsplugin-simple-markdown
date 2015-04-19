@@ -1,4 +1,4 @@
 django
 markdown
-django-markwhat
+django-markdown
 django-cms

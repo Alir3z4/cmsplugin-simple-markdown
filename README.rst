@@ -71,7 +71,7 @@ Configuration & Usage
 ----------------------
 
 1. Add ``cmsplugin_simple_markdown`` to  ``INSTALLED_APPS``.
-2. Add ``django.contrib.markup`` to ``INSTALLED_APPS``, if it isn't included already.
+2. Add ``django_markdown`` to ``INSTALLED_APPS``.
 3. Create the database tables::
 
     $ python manage.py migrate
