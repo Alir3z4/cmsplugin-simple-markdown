@@ -9,7 +9,7 @@ setup(
     install_requires=[
         'django',
         'markdown',
-        'django-markwhat',
+        'django-markdown',
         'django-cms'
     ],
     url='https://www.github.com/Alir3z4/cmsplugin-simple-markdown',
