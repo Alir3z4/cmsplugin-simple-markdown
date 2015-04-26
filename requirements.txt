@@ -1,4 +1,4 @@
-django
-markdown
-django-markdown
-django-cms
+Django>=1.7
+Markdown>=2.6.2
+django-markdown>=0.8.4
+django-cms>=3.0
