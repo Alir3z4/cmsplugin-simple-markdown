@@ -14,6 +14,7 @@ class SimpleMarkdownCMSPluginForm(forms.ModelForm):
 
     class Meta:
         model = SimpleMarkdownPlugin
+        fields = '__all__'
         widgets = {
             'markdown_text': MarkdownWidget
         }
@@ -34,7 +35,7 @@ class SimpleMarkdownCMSPlugin(CMSPluginBase):
             else:
                 return "(#" + match.group(1) + ")"
 
-        return re.sub('\(page:([^\)]+)\)', link_repl, markdown_text)
+        return re.sub(r'\(page:([^\)]+)\)', link_repl, markdown_text)
 
     def render(self, context, instance, placeholder):
         context['text'] = self.replace_links(instance.markdown_text)

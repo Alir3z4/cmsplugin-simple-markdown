@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='cmsplugin-simple-markdown',
     version=".".join(map(str, __import__('cmsplugin_simple_markdown').__version__)),
-    packages=['cmsplugin_simple_markdown', 'cmsplugin_simple_markdown.migrations'],
+    packages=['cmsplugin_simple_markdown', 'cmsplugin_simple_markdown.migrations', 'cmsplugin_simple_markdown.migrations_django'],
     package_dir={'cmsplugin_simple_markdown': 'cmsplugin_simple_markdown'},
     package_data={'cmsplugin_simple_markdown': ['templates/*/*']},
     install_requires=[
@@ -37,6 +37,7 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
         'Topic :: Software Development'
     ],
 )
