@@ -14,6 +14,7 @@ class SimpleMarkdownCMSPluginForm(forms.ModelForm):
 
     class Meta:
         model = SimpleMarkdownPlugin
+        fields = '__all__'
         widgets = {
             'markdown_text': MarkdownWidget
         }
