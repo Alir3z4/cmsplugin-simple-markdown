@@ -75,9 +75,11 @@ It's fucking hard to install.
 Configuration & Usage
 ----------------------
 
-1. Add ``cmsplugin_simple_markdown`` to  ``INSTALLED_APPS``.
-2. If you are using Django 1.7 add ``'cmsplugin_simple_markdown': 'cmsplugin_simple_markdown.migrations_django',`` to ``MIGRATION_MODULES`` in settings.
-3. Create the database tables::
+1. Make sure ``django-markdown`` is configured as described in their `Setup
+<https://github.com/klen/django_markdown#id5>`_ section.
+2. Add ``cmsplugin_simple_markdown`` to  ``INSTALLED_APPS``.
+3. If you are using Django 1.7 or higher add ``'cmsplugin_simple_markdown': 'cmsplugin_simple_markdown.migrations_django',`` to ``MIGRATION_MODULES`` in settings.
+4. Create the database tables::
 
     $ python manage.py migrate
 
@@ -93,5 +95,5 @@ Since every application won't begins with love, this plugin developed to solve a
 but when I've tried to use aws s3/cloudfront for my static files, I've stuck with ``CORS`` problem.
 So I've develop ``cmsplugin-simple-markdown`` to be used without any deps on js/css files.
 
-Now these days, people all around the world are using it, They are happy with it, They go crazy with ``cmsplugin-simple-markdown``,  
+Now these days, people all around the world are using it, They are happy with it, They go crazy with ``cmsplugin-simple-markdown``,
 Even they name their child ``cmsplugin-simple-markdown``, At least I did. ;)
