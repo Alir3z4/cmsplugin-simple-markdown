@@ -20,6 +20,7 @@ answer newbie questions, and generally made ``cmsplugin-simple-markdown`` that m
 * Philipp Bosch <hello@pb.io>
 * Igor Pejic <igor.pejic@dr.com>
 * Alex Wright <alex@xeentech.com>
+* Jannik Vieten <me@exploide.net>
 
 
 A big THANK YOU goes to:
