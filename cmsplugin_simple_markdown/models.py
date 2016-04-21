@@ -21,4 +21,7 @@ class SimpleMarkdownPlugin(CMSPlugin):
     )
 
     def __unicode__(self):
+        """
+        :rtype: str or unicode
+        """
         return self.markdown_text
