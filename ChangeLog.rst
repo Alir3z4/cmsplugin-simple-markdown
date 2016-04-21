@@ -1,6 +1,7 @@
 1.6 2016-04-21
 ===============
 ----
+
 * Feature: Migrating the app is now functional again.
 * Feature: Added leftover migration for Python3 compatibility.
 * Feature: Made SimpleMarkdownCMSPluginForm Django 1.8 compatible.
